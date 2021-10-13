@@ -1,0 +1,25 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(°ğ÷ƒ
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(ßåìúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(à›İúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‡ê¤èûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Â”éË
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÍŞ ²
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñì•üÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ÎíáÇüÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(Ê ÆÊ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(†áóŒ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(ÎíáÇüÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(Ê ÆÊ
+h	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ë‘ìùÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(ñì•üÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(èÕ¶ë
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(ÎíáÇüÿÿÿÿ
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(Ê ÆÊ
+~
+java:S1192 "cDefine a constant instead of duplicating this literal "Select what do you want calculate:" 3 times.(ÎíáÇüÿÿÿÿ
+c
+java:S1192'"MDefine a constant instead of duplicating this literal "Cicumference" 3 times.(¿°
+^
+java:S1192*"HDefine a constant instead of duplicating this literal "Invalid" 3 times.(Ê ÆÊ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©ìá1
