@@ -1,16 +1,22 @@
-package V2;
+package V2.shapes;
+
+import V2.input.OperationInput;
+import V2.input.SizeInput;
 
 import java.util.Scanner;
 
 public class Square {
     public static double square() {
-        System.out.println("Type the length");
-        Scanner scanner=new Scanner(System.in);
-        int length= scanner.nextInt();
-        System.out.println("Select what do you want calculate:");
-        scanner.nextLine();
-        String select=scanner.nextLine();
-        switch(select)
+
+        SizeInput sizeInput=new SizeInput();
+        int length=sizeInput.inputSize();
+
+
+        OperationInput operationInput=new OperationInput();
+        String operation=operationInput.inputOperation();
+
+        //Operation fac
+        switch(operation)
         {
             case "Area":
                 return (double)length*length;

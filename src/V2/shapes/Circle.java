@@ -1,17 +1,21 @@
-package V2;
+package V2.shapes;
+
+import V2.input.OperationInput;
+import V2.input.SizeInput;
 
 import java.util.Scanner;
 
 public class Circle {
     public static double circle() {
-        System.out.println("Type the radius");
-        Scanner scanner=new Scanner(System.in);
-        int radius= scanner.nextInt();
-        System.out.println("Select what do you want calculate:");
-        scanner.nextLine();
-        String select=scanner.nextLine();
+
+        SizeInput sizeInput=new SizeInput();
+        int radius=sizeInput.inputSize();
+
+        OperationInput operationInput=new OperationInput();
+        String operation=operationInput.inputOperation();
         final double PI=3.14;
-        switch(select)
+        //Operation Factory
+        switch(operation)
         {
             case "Area":
                 return PI*radius*radius;

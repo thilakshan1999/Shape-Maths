@@ -1,33 +1,26 @@
 package V2;
 
-import java.util.Scanner;
+
+import V2.input.ShapeInput;
+import V2.instruction.Welcome;
+import V2.shapes.ShapeFactory;
+
 
 public class Main {
-    public static void main(String[] args)
-    {
-        System.out.println("Welcome to Shape Maths");
-        System.out.println("Select the shape:");
-        Scanner scanner=new Scanner(System.in);
-        String shape=scanner.nextLine();
-        //Shape factory
-        switch(shape){
-            case "Square":
-                System.out.println(Square.square());
-                break;
-            case "Rectangle":
-                System.out.println(Rectangle.rectangle());
-                break;
-            case "Circle":
-                System.out.println(Circle.circle());
-                break;
-            default:
-                System.out.println("Write the correct shape");
-                break;
+    public static void main(String[] args) {
 
-//                comment
-        }
+        Welcome welcome=new Welcome();
+        System.out.println(welcome.print());
+
+        ShapeInput shapeInput=new ShapeInput();
+        String shape= shapeInput.inputShape();
+
+
+        ShapeFactory shapeFactory=new ShapeFactory();
+        shapeFactory.shapeSelector(shape);
 
     }
+}
 
 
 
