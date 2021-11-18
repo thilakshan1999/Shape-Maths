@@ -15,3 +15,23 @@ Q
 !src/V2/input/SizeInputCircle.java,5\5\550f841e85a503500683cc85b56038fca3e874c5
 K
 src/V2/input/SizeInput.java,9\7\97416b6ab28f71229fd7db330b1ffe4d01aa31fa
+]
+-src/V2/operation/area/SqureAreaOperation.java,e\7\e783c87849c15b15114c1883489111a85192ef15
+a
+1src/V2/operation/area/RectangleAreaOperation.java,e\c\ec0d835fa278a0dfb432333fe5ac00eea2a7e802
+^
+.src/V2/operation/area/CircleAreaOperation.java,1\0\10661e2fa868785604809e482a1a40ee1c4efd30
+X
+(src/V2/operation/area/AreaOperation.java,1\7\17ba2453ae8af282da2e07ddbd65c66d1796c1f1
+p
+@src/V2/operation/circumference/SquareCircumferenceOperation.java,c\c\ccbd7d7eeaca9bfe39425ccfdee947dc851210c2
+s
+Csrc/V2/operation/circumference/RectangleCircumferenceOperation.java,9\5\95d4a11ec2f7b4359f24a824204e357def14a8e4
+j
+:src/V2/operation/circumference/CircumferenceOperation.java,6\f\6f00bc57ed47feaf5886d0d6fbc46b7a0ff8a0ec
+P
+ src/V2/input/OperationInput.java,8\a\8ae69a43de24853e4b7c0dd9a2d780e945be6162
+p
+@src/V2/operation/circumference/CircleCircumferenceOperation.java,a\5\a56c922fb224e78a9de921125b2ec981e92d3807
+>
+src/V2/UI.java,5\a\5ae094942ca5506764823e32370ce98053824748
