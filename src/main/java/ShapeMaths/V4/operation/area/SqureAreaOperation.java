@@ -6,4 +6,5 @@ public class SqureAreaOperation implements AreaOperation {
         final int length=size[0];
         return (double)length*length;
     }
+
 }

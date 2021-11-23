@@ -8,7 +8,7 @@ public class ShapeInput implements ShapeInputer {
 
         Scanner scanner = new Scanner(System.in);
         String shape = scanner.nextLine();
-        if(!(shape.equals("Square")||shape.equals("Circle")||shape.equals("Rectanle"))) {
+        if(!(shape.equals("Square")||shape.equals("Circle")||shape.equals("Rectangle"))) {
             throw new InvalidShapeException("Type 'Circle' or 'Square' or 'Rectangle'");
         }
         return shape;

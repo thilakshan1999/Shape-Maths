@@ -4,6 +4,6 @@ public class SquareCircumferenceOperation implements CircumferenceOperation {
     public double execute(int[] size)
     {
         final int length=size[0];
-        return (double)length*length;
+        return (double)4*length;
     }
 }

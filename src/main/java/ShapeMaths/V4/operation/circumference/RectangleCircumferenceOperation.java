@@ -5,6 +5,6 @@ public class RectangleCircumferenceOperation implements CircumferenceOperation {
     {
         final int length=size[0];
         final int width=size[1];
-        return (double)length*width;
+        return (double)2*(length+width);
     }
 }
